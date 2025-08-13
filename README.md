@@ -37,8 +37,7 @@ This repository contains a relational database schema, sample data generation sc
 Feel free to fork this repository, submit issues, or create pull requests. Suggestions for additional queries or improvements are welcome!
 
 ## License
-[MIT License](LICENSE) (or specify your preferred license).
+[MIT License](LICENSE).
 
 ## Acknowledgments
 - Data generation inspired by the Faker library.
-- Diagram created using [your tool of choice, e.g., SQL Server Management Studio].
