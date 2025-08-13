@@ -2,14 +2,30 @@
 
 A database project for managing and analyzing property evaluations across various regions.
 
+---
+
 ## Overview
-This repository contains a relational database schema, sample data generation scripts, and analysis queries for property evaluations. The project includes:
-- A database schema with tables for areas, properties, evaluators, and evaluations.
-- A Python script to generate 1000 rows of sample data.
-- SQL queries for data analysis and reporting.
-- A relational diagram (PNG) visualizing the database structure.
+This repository contains:
+- **Database schema** (`CreateTables.sql`) with tables for areas, properties, evaluators, evaluations, and related entities.
+- **Sample data generation script** (`generate_data.py`) to produce 1,000+ rows of realistic test data.
+- **SQL data inserts** (`insert_data_1000.sql`) and example insert files for Office, Evaluator, Evaluation, and System tables.
+- **Analysis queries** (`Main.sql`) to run on the dataset.
+- **Relational diagram** visualizing the database structure.
+
+---
 
 ## Project Structure
+- `data/`: Contains the generated SQL data file (`insert_data_1000.sql`).
+- `scripts/`: Includes SQL scripts (`CreateTables.sql`, `Main.sql`) and the data generation script (`generate_data.py`).
+- `docs/`: Holds the relational diagram (`relational_diagram.png`).
+
+---
+
+## Relational Diagram
+
+![Relational Diagram](docs/Relational%20Diagram.png)
+
+---
 - `data/`: Contains the generated SQL data file (`insert_data_1000.sql`).
 - `scripts/`: Includes SQL scripts (`CreateTables.sql`, `Main.sql`) and the data generation script (`generate_data.py`).
 - `docs/`: Holds the relational diagram (`relational_diagram.png`).
