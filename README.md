@@ -33,9 +33,6 @@ This repository contains a relational database schema, sample data generation sc
 - The `Main.sql` file contains 16 queries for various analyses (e.g., evaluator statistics, price trends).
 - The relational diagram in `docs/relational_diagram.png` provides a visual overview of the schema.
 
-## Contributing
-Feel free to fork this repository, submit issues, or create pull requests. Suggestions for additional queries or improvements are welcome!
-
 ## License
 [MIT License](LICENSE).
 
