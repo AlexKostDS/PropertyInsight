@@ -28,7 +28,7 @@ This repository contains:
 ---
 - `data/`: Contains the generated SQL data file (`insert_data_1000.sql`).
 - `scripts/`: Includes SQL scripts (`CreateTables.sql`, `Main.sql`) and the data generation script (`generate_data.py`).
-- `docs/`: Holds the relational diagram (`relational_diagram.png`).
+- `Diagrams/`: Holds the relational diagram (`relational_diagram.png`).
 
 ## Setup
 1. **Prerequisites**:
