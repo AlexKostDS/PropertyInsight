@@ -21,11 +21,7 @@ This repository contains:
 
 ---
 
-## Relational Diagram
 
-![Relational Diagram](docs/Relational%Diagram.png)
-
----
 - `data/`: Contains the generated SQL data file (`insert_data_1000.sql`).
 - `scripts/`: Includes SQL scripts (`CreateTables.sql`, `Main.sql`) and the data generation script (`generate_data.py`).
 - `Diagrams/`: Holds the relational diagram (`relational_diagram.png`).
